@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 5px;
+  font-family: "Times New Roman", serif;
+  background-color: white;
+}
+
+/* ---------- Navigation bar ---------- */
+nav {
+  background-color: #333;
+  border-radius: 15px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+nav img {
+  height: 40px;
+  width: 40px;
+}
+
+nav .links a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* ---------- Profile card ---------- */
+.card {
+  width: 700px;             /* bigger card */
+  max-width: 95%;           /* still fits small screens */
+  box-sizing: border-box;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background-color: rgb(201, 116, 116);
+  border: 2px solid black;
+  text-align: center;
+}
+
+.card h1 {
+  color: rgb(90, 90, 179);
+  font-size: 32px;
+  margin: 20px 0 15px;
+}
+
+.card h2 {
+  color: darkgreen;
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+.card .photo {
+  display: block;
+  margin: 0 auto;
+  width: 400px;             /* bigger image */
+  max-width: 100%;
+  height: auto;             /* keeps proportions, no squishing */
+  border: 3px solid black;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.card ul {
+  text-align: left;
+  width: 150px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.card a {
+  color: blue;
+}
